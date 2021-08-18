@@ -26,7 +26,7 @@ import java.io.IOException;
  * The COD (Cash On Delivery) charges that you associate with a COD fulfillment order.
  */
 @Schema(description = "The COD (Cash On Delivery) charges that you associate with a COD fulfillment order.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:41.384190+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:29.964921+08:00[Asia/Shanghai]")
 public class CODSettings {
   @SerializedName("isCodRequired")
   private Boolean isCodRequired = null;

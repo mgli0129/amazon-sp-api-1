@@ -22,7 +22,7 @@ import java.util.List;
  * A list of A+ Content modules.
  */
 @Schema(description = "A list of A+ Content modules.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:12.277960+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:02.980344+08:00[Asia/Shanghai]")
 public class ContentModuleList extends ArrayList<ContentModule> {
 
   @Override

@@ -29,7 +29,7 @@ import java.io.IOException;
  * Inbound shipment information, including carrier details and shipment status.
  */
 @Schema(description = "Inbound shipment information, including carrier details and shipment status.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:36.277615+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:25.138369+08:00[Asia/Shanghai]")
 public class TransportDetailOutput {
   @SerializedName("PartneredSmallParcelData")
   private PartneredSmallParcelDataOutput partneredSmallParcelData = null;

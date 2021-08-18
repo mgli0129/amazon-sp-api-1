@@ -28,7 +28,7 @@ import java.math.BigDecimal;
  * Item in the container.
  */
 @Schema(description = "Item in the container.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:26.109956+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:05:05.770512+08:00[Asia/Shanghai]")
 public class ContainerItem {
   @SerializedName("quantity")
   private BigDecimal quantity = null;

@@ -26,7 +26,7 @@ import java.io.IOException;
  * The dimension values and unit of measurement.
  */
 @Schema(description = "The dimension values and unit of measurement.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:36.277615+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:25.138369+08:00[Asia/Shanghai]")
 public class Dimensions {
   @SerializedName("Length")
   private Double length = null;

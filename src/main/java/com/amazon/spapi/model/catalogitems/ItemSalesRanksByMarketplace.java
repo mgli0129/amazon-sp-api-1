@@ -28,7 +28,7 @@ import java.util.List;
  * Sales ranks of an Amazon catalog item for the indicated Amazon marketplace.
  */
 @Schema(description = "Sales ranks of an Amazon catalog item for the indicated Amazon marketplace.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:18.960277+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:09.169546+08:00[Asia/Shanghai]")
 public class ItemSalesRanksByMarketplace {
   @SerializedName("marketplaceId")
   private String marketplaceId = null;

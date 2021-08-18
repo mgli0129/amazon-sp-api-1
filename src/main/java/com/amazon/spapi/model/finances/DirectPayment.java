@@ -26,7 +26,7 @@ import java.io.IOException;
  * A payment made directly to a seller.
  */
 @Schema(description = "A payment made directly to a seller.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:30.762647+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:21.202214+08:00[Asia/Shanghai]")
 public class DirectPayment {
   @SerializedName("DirectPaymentType")
   private String directPaymentType = null;

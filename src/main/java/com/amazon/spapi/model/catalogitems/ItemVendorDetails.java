@@ -22,7 +22,7 @@ import java.util.List;
  * Vendor details associated with an Amazon catalog item. Vendor details are available to vendors only.
  */
 @Schema(description = "Vendor details associated with an Amazon catalog item. Vendor details are available to vendors only.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:18.960277+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:09.169546+08:00[Asia/Shanghai]")
 public class ItemVendorDetails extends ArrayList<ItemVendorDetailsByMarketplace> {
 
   @Override

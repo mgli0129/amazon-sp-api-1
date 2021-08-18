@@ -25,7 +25,7 @@ import java.io.IOException;
  * Image for an item in the Amazon catalog.
  */
 @Schema(description = "Image for an item in the Amazon catalog.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:18.960277+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:09.169546+08:00[Asia/Shanghai]")
 public class ItemImage {
   /**
    * Variant of the image, such as MAIN or PT01.

@@ -26,7 +26,7 @@ import java.io.IOException;
  * Information about the location of the service job.
  */
 @Schema(description = "Information about the location of the service job.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:20.442092+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:05:00.860622+08:00[Asia/Shanghai]")
 public class ServiceLocation {
   /**
    * The location of the service job.

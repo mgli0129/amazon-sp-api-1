@@ -27,7 +27,7 @@ import java.io.IOException;
  * The response schema for the getListingOffers and getItemOffers operations.
  */
 @Schema(description = "The response schema for the getListingOffers and getItemOffers operations.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:05.260775+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:49.696345+08:00[Asia/Shanghai]")
 public class GetOffersResponse {
   @SerializedName("payload")
   private GetOffersResult payload = null;

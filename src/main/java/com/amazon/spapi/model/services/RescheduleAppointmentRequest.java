@@ -26,7 +26,7 @@ import java.io.IOException;
  * Input for rescheduled appointment operation.
  */
 @Schema(description = "Input for rescheduled appointment operation.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:20.442092+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:05:00.860622+08:00[Asia/Shanghai]")
 public class RescheduleAppointmentRequest {
   @SerializedName("appointmentTime")
   private AppointmentTimeInput appointmentTime = null;

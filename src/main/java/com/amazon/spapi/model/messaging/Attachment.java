@@ -25,7 +25,7 @@ import java.io.IOException;
  * Represents a file uploaded to a destination that was created by the createUploadDestination operation of the Uploads API.
  */
 @Schema(description = "Represents a file uploaded to a destination that was created by the createUploadDestination operation of the Uploads API.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:52.478594+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:39.547039+08:00[Asia/Shanghai]")
 public class Attachment {
   @SerializedName("uploadDestinationId")
   private String uploadDestinationId = null;

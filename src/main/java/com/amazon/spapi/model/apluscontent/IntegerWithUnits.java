@@ -25,7 +25,7 @@ import java.io.IOException;
  * A whole number dimension and its unit of measurement. For example, this can represent 100 pixels.
  */
 @Schema(description = "A whole number dimension and its unit of measurement. For example, this can represent 100 pixels.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:12.277960+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:02.980344+08:00[Asia/Shanghai]")
 public class IntegerWithUnits {
   @SerializedName("value")
   private Integer value = null;

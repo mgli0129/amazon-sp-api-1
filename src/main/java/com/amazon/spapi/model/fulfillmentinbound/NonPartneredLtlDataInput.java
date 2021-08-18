@@ -25,7 +25,7 @@ import java.io.IOException;
  * Information that you provide to Amazon about a Less Than Truckload/Full Truckload (LTL/FTL) shipment by a carrier that has not partnered with Amazon.
  */
 @Schema(description = "Information that you provide to Amazon about a Less Than Truckload/Full Truckload (LTL/FTL) shipment by a carrier that has not partnered with Amazon.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:36.277615+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:25.138369+08:00[Asia/Shanghai]")
 public class NonPartneredLtlDataInput {
   @SerializedName("CarrierName")
   private String carrierName = null;

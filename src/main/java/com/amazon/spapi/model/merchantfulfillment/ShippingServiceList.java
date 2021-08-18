@@ -22,7 +22,7 @@ import java.util.List;
  * A list of shipping services offers.
  */
 @Schema(description = "A list of shipping services offers.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:48.599131+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:36.286080+08:00[Asia/Shanghai]")
 public class ShippingServiceList extends ArrayList<ShippingService> {
 
   @Override

@@ -28,7 +28,7 @@ import java.io.IOException;
  * An Amazon order item identifier and a quantity.
  */
 @Schema(description = "An Amazon order item identifier and a quantity.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:48.599131+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:36.286080+08:00[Asia/Shanghai]")
 public class Item {
   @SerializedName("OrderItemId")
   private String orderItemId = null;

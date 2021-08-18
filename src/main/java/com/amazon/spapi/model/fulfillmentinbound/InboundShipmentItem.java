@@ -27,7 +27,7 @@ import org.threeten.bp.LocalDate;
  * Item information for an inbound shipment. Submitted with a call to the createInboundShipment or updateInboundShipment operation.
  */
 @Schema(description = "Item information for an inbound shipment. Submitted with a call to the createInboundShipment or updateInboundShipment operation.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:36.277615+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:25.138369+08:00[Asia/Shanghai]")
 public class InboundShipmentItem {
   @SerializedName("ShipmentId")
   private String shipmentId = null;

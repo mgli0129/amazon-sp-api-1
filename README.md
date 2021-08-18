@@ -2,7 +2,7 @@
 
 Selling Partner API for A+ Content Management
 - API version: 2020-11-01
-  - Build date: 2021-08-18T11:31:12.277960+08:00[Asia/Shanghai]
+  - Build date: 2021-08-18T13:04:02.980344+08:00[Asia/Shanghai]
 
 With the A+ Content API, you can build applications that help selling partners add rich marketing content to their Amazon product detail pages. A+ content helps selling partners share their brand and product story, which helps buyers make informed purchasing decisions. Selling partners assemble content by choosing from content modules and adding images and text.
 

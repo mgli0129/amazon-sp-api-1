@@ -27,7 +27,7 @@ import java.io.IOException;
  * An item identifier, marketplace, time of request, and other details that identify an estimate.
  */
 @Schema(description = "An item identifier, marketplace, time of request, and other details that identify an estimate.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:02.304133+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:47.454253+08:00[Asia/Shanghai]")
 public class FeesEstimateIdentifier {
   @SerializedName("MarketplaceId")
   private String marketplaceId = null;

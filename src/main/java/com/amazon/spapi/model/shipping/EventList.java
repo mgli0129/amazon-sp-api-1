@@ -22,7 +22,7 @@ import java.util.List;
  * A list of events of a shipment.
  */
 @Schema(description = "A list of events of a shipment.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:26.109956+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:05:05.770512+08:00[Asia/Shanghai]")
 public class EventList extends ArrayList<Event> {
 
   @Override

@@ -27,7 +27,7 @@ import java.io.IOException;
  * A single order item&#x27;s buyer information.
  */
 @Schema(description = "A single order item's buyer information.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:58.346808+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:44.630904+08:00[Asia/Shanghai]")
 public class OrderItemBuyerInfo {
   @SerializedName("OrderItemId")
   private String orderItemId = null;

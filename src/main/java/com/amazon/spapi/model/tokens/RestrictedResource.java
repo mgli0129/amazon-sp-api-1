@@ -27,7 +27,7 @@ import java.util.List;
  * Model of a restricted resource.
  */
 @Schema(description = "Model of a restricted resource.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:31.774729+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:05:12.750124+08:00[Asia/Shanghai]")
 public class RestrictedResource {
   /**
    * The HTTP method in the restricted resource.

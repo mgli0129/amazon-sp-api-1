@@ -25,7 +25,7 @@ import java.io.IOException;
  * Information required to upload a feed document&#x27;s contents.
  */
 @Schema(description = "Information required to upload a feed document's contents.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:28.230655+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:19.034442+08:00[Asia/Shanghai]")
 public class CreateFeedDocumentResponse {
   @SerializedName("feedDocumentId")
   private String feedDocumentId = null;

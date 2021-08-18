@@ -26,7 +26,7 @@ import java.io.IOException;
  * An item in an adjustment to the seller&#x27;s account.
  */
 @Schema(description = "An item in an adjustment to the seller's account.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:30.762647+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:21.202214+08:00[Asia/Shanghai]")
 public class AdjustmentItem {
   @SerializedName("Quantity")
   private String quantity = null;

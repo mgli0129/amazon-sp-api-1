@@ -29,7 +29,7 @@ import java.io.IOException;
  * Describes a messaging action that can be taken for an order. Provides a JSON Hypertext Application Language (HAL) link to the JSON schema document that describes the expected input.
  */
 @Schema(description = "Describes a messaging action that can be taken for an order. Provides a JSON Hypertext Application Language (HAL) link to the JSON schema document that describes the expected input.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:52.478594+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:39.547039+08:00[Asia/Shanghai]")
 public class GetMessagingActionResponse {
   @SerializedName("_links")
   private GetMessagingActionResponseLinks _links = null;

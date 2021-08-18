@@ -29,7 +29,7 @@ import org.threeten.bp.OffsetDateTime;
  * The request schema for the createWarranty operation.
  */
 @Schema(description = "The request schema for the createWarranty operation.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:52.478594+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:39.547039+08:00[Asia/Shanghai]")
 public class CreateWarrantyRequest {
   @SerializedName("attachments")
   private List<Attachment> attachments = null;

@@ -25,7 +25,7 @@ import java.io.IOException;
  * A Link object.
  */
 @Schema(description = "A Link object.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:52.478594+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:39.547039+08:00[Asia/Shanghai]")
 public class LinkObject {
   @SerializedName("href")
   private String href = null;

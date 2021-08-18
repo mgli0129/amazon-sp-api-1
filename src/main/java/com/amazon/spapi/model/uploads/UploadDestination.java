@@ -25,7 +25,7 @@ import java.io.IOException;
  * Information about an upload destination.
  */
 @Schema(description = "Information about an upload destination.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:33.965171+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:05:15.024236+08:00[Asia/Shanghai]")
 public class UploadDestination {
   @SerializedName("uploadDestinationId")
   private String uploadDestinationId = null;

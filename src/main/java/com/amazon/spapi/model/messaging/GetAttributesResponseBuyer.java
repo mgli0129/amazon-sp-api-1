@@ -25,7 +25,7 @@ import java.io.IOException;
  * The list of attributes related to the buyer.
  */
 @Schema(description = "The list of attributes related to the buyer.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:52.478594+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:39.547039+08:00[Asia/Shanghai]")
 public class GetAttributesResponseBuyer {
   @SerializedName("locale")
   private String locale = null;

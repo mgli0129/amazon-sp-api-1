@@ -22,7 +22,7 @@ import java.util.List;
  * A list of competitive pricing information.
  */
 @Schema(description = "A list of competitive pricing information.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:05.260775+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:49.696345+08:00[Asia/Shanghai]")
 public class CompetitivePriceList extends ArrayList<CompetitivePriceType> {
 
   @Override

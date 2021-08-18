@@ -27,7 +27,7 @@ import java.io.IOException;
  * Preparation instructions and who is responsible for the preparation.
  */
 @Schema(description = "Preparation instructions and who is responsible for the preparation.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:36.277615+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:25.138369+08:00[Asia/Shanghai]")
 public class PrepDetails {
   @SerializedName("PrepInstruction")
   private PrepInstruction prepInstruction = null;

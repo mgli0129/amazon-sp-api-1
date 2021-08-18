@@ -31,7 +31,7 @@ import org.threeten.bp.OffsetDateTime;
  * A shipping service offer made by a carrier.
  */
 @Schema(description = "A shipping service offer made by a carrier.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:48.599131+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:36.286080+08:00[Asia/Shanghai]")
 public class ShippingService {
   @SerializedName("ShippingServiceName")
   private String shippingServiceName = null;

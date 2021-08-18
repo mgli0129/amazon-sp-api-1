@@ -26,7 +26,7 @@ import java.io.IOException;
  * An item to be sold.
  */
 @Schema(description = "An item to be sold.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:26.188298+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:16.888029+08:00[Asia/Shanghai]")
 public class Item {
   @SerializedName("asin")
   private String asin = null;

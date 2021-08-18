@@ -26,7 +26,7 @@ import java.io.IOException;
  * The payload schema for the getRates operation.
  */
 @Schema(description = "The payload schema for the getRates operation.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:26.109956+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:05:05.770512+08:00[Asia/Shanghai]")
 public class GetRatesResult {
   @SerializedName("serviceRates")
   private ServiceRateList serviceRates = null;

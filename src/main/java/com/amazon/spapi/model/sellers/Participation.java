@@ -25,7 +25,7 @@ import java.io.IOException;
  * Detailed information that is specific to a seller in a Marketplace.
  */
 @Schema(description = "Detailed information that is specific to a seller in a Marketplace.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:18.078250+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:58.816909+08:00[Asia/Shanghai]")
 public class Participation {
   @SerializedName("isParticipating")
   private Boolean isParticipating = null;

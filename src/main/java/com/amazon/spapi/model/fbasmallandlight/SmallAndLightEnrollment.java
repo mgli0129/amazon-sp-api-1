@@ -26,7 +26,7 @@ import java.io.IOException;
  * The Small and Light enrollment status of the item indicated by the specified seller SKU.
  */
 @Schema(description = "The Small and Light enrollment status of the item indicated by the specified seller SKU.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:26.188298+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:16.888029+08:00[Asia/Shanghai]")
 public class SmallAndLightEnrollment {
   @SerializedName("marketplaceId")
   private String marketplaceId = null;

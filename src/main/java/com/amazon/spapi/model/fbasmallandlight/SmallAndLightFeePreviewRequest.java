@@ -28,7 +28,7 @@ import java.util.List;
  * Request schema for submitting items for which to retrieve fee estimates.
  */
 @Schema(description = "Request schema for submitting items for which to retrieve fee estimates.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:26.188298+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:16.888029+08:00[Asia/Shanghai]")
 public class SmallAndLightFeePreviewRequest {
   @SerializedName("marketplaceId")
   private String marketplaceId = null;

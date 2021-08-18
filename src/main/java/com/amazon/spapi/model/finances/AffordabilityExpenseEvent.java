@@ -27,7 +27,7 @@ import org.threeten.bp.OffsetDateTime;
  * An expense related to an affordability promotion.
  */
 @Schema(description = "An expense related to an affordability promotion.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:30.762647+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:21.202214+08:00[Asia/Shanghai]")
 public class AffordabilityExpenseEvent {
   @SerializedName("AmazonOrderId")
   private String amazonOrderId = null;

@@ -22,7 +22,7 @@ import java.util.List;
  * A list of other fees that contribute to a given fee.
  */
 @Schema(description = "A list of other fees that contribute to a given fee.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:02.304133+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:47.454253+08:00[Asia/Shanghai]")
 public class FeeDetailList extends ArrayList<FeeDetail> {
 
   @Override

@@ -28,7 +28,7 @@ import java.util.List;
  * A list of error responses returned when a request is unsuccessful.
  */
 @Schema(description = "A list of error responses returned when a request is unsuccessful.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:28.230655+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:19.034442+08:00[Asia/Shanghai]")
 public class ErrorList {
   @SerializedName("errors")
   private List<Error> errors = new ArrayList<Error>();

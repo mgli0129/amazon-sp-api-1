@@ -27,7 +27,7 @@ import org.threeten.bp.OffsetDateTime;
  * A network commingling transaction event.
  */
 @Schema(description = "A network commingling transaction event.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:30.762647+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:21.202214+08:00[Asia/Shanghai]")
 public class NetworkComminglingTransactionEvent {
   @SerializedName("TransactionType")
   private String transactionType = null;

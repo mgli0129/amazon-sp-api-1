@@ -26,7 +26,7 @@ import java.io.IOException;
  * A fee associated with the event.
  */
 @Schema(description = "A fee associated with the event.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:30.762647+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:21.202214+08:00[Asia/Shanghai]")
 public class FeeComponent {
   @SerializedName("FeeType")
   private String feeType = null;

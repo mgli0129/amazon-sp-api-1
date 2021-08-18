@@ -3,6 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**itemReference** | **String** | The reference number for the item. Please provide the itemSequenceNumber from the &#x27;items&#x27; segment to refer to that item&#x27;s details here. | 
-**shippedQuantity** | [**ItemQuantity**](ItemQuantity.md) |  | 
-**itemDetails** | [**ItemDetails**](ItemDetails.md) |  |  [optional]
+**quantity** | [**BigDecimal**](BigDecimal.md) | The quantity of the items of this type in the container. | 
+**unitPrice** | [**Currency**](Currency.md) |  | 
+**unitWeight** | [**Weight**](Weight.md) |  | 
+**title** | **String** | A descriptive title of the item. | 

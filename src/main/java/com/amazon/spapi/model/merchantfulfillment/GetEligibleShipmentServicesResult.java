@@ -29,7 +29,7 @@ import java.io.IOException;
  * The payload for the getEligibleShipmentServices operation.
  */
 @Schema(description = "The payload for the getEligibleShipmentServices operation.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:48.599131+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:36.286080+08:00[Asia/Shanghai]")
 public class GetEligibleShipmentServicesResult {
   @SerializedName("ShippingServiceList")
   private ShippingServiceList shippingServiceList = null;

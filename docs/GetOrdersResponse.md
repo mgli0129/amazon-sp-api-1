@@ -3,5 +3,5 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**payload** | [**OrderList**](OrderList.md) |  |  [optional]
+**payload** | [**OrdersList**](OrdersList.md) |  |  [optional]
 **errors** | [**ErrorList**](ErrorList.md) |  |  [optional]

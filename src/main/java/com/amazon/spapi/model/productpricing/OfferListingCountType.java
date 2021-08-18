@@ -25,7 +25,7 @@ import java.io.IOException;
  * The number of offer listings with the specified condition.
  */
 @Schema(description = "The number of offer listings with the specified condition.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:05.260775+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:49.696345+08:00[Asia/Shanghai]")
 public class OfferListingCountType {
   @SerializedName("Count")
   private Integer count = null;

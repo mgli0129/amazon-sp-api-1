@@ -26,7 +26,7 @@ import java.io.IOException;
  * The number of Amazon Points offered with the purchase of an item, and their monetary value.
  */
 @Schema(description = "The number of Amazon Points offered with the purchase of an item, and their monetary value.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:58.346808+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:44.630904+08:00[Asia/Shanghai]")
 public class PointsGrantedDetail {
   @SerializedName("PointsNumber")
   private Integer pointsNumber = null;

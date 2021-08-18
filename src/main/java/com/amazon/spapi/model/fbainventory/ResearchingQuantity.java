@@ -28,7 +28,7 @@ import java.util.List;
  * The number of misplaced or warehouse damaged units that are actively being confirmed at our fulfillment centers.
  */
 @Schema(description = "The number of misplaced or warehouse damaged units that are actively being confirmed at our fulfillment centers.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:23.919789+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:14.610509+08:00[Asia/Shanghai]")
 public class ResearchingQuantity {
   @SerializedName("totalResearchingQuantity")
   private Integer totalResearchingQuantity = null;

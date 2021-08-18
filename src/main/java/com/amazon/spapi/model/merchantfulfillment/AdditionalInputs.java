@@ -26,7 +26,7 @@ import java.io.IOException;
  * Maps the additional seller input to the definition. The key to the map is the field name.
  */
 @Schema(description = "Maps the additional seller input to the definition. The key to the map is the field name.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:48.599131+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:36.286080+08:00[Asia/Shanghai]")
 public class AdditionalInputs {
   @SerializedName("AdditionalInputFieldName")
   private String additionalInputFieldName = null;

@@ -27,7 +27,7 @@ import java.io.IOException;
  * The response schema for the getAccount operation.
  */
 @Schema(description = "The response schema for the getAccount operation.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:26.109956+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:05:05.770512+08:00[Asia/Shanghai]")
 public class GetAccountResponse {
   @SerializedName("payload")
   private Account payload = null;

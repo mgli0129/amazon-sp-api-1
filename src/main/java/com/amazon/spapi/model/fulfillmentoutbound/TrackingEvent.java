@@ -28,7 +28,7 @@ import org.threeten.bp.OffsetDateTime;
  * Information for tracking package deliveries.
  */
 @Schema(description = "Information for tracking package deliveries.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:41.384190+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:29.964921+08:00[Asia/Shanghai]")
 public class TrackingEvent {
   @SerializedName("eventDate")
   private OffsetDateTime eventDate = null;

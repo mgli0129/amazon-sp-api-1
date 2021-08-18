@@ -27,7 +27,7 @@ import java.io.IOException;
  * The available delivery confirmation options, and the fee charged, if any.
  */
 @Schema(description = "The available delivery confirmation options, and the fee charged, if any.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:48.599131+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:36.286080+08:00[Asia/Shanghai]")
 public class AvailableDeliveryExperienceOption {
   @SerializedName("DeliveryExperienceOption")
   private DeliveryExperienceOption deliveryExperienceOption = null;

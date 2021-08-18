@@ -26,7 +26,7 @@ import java.io.IOException;
  * The A+ Content standard label and description block, comprised of a pair of text components.
  */
 @Schema(description = "The A+ Content standard label and description block, comprised of a pair of text components.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:12.277960+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:02.980344+08:00[Asia/Shanghai]")
 public class StandardTextPairBlock {
   @SerializedName("label")
   private TextComponent label = null;

@@ -28,7 +28,7 @@ import java.math.BigDecimal;
  * The shipment item information required by a seller to issue a shipment invoice.
  */
 @Schema(description = "The shipment item information required by a seller to issue a shipment invoice.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:23.393372+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:05:03.482145+08:00[Asia/Shanghai]")
 public class ShipmentItem {
   @SerializedName("ASIN")
   private String ASIN = null;

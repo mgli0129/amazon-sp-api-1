@@ -25,7 +25,7 @@ import java.io.IOException;
  * Encryption details required for decryption of a report document&#x27;s contents.
  */
 @Schema(description = "Encryption details required for decryption of a report document's contents.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:12.718807+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:54.519228+08:00[Asia/Shanghai]")
 public class ReportDocumentEncryptionDetails {
   /**
    * The encryption standard required to decrypt the document contents.

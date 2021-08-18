@@ -30,7 +30,7 @@ import java.util.List;
  * Items in the Amazon catalog and search related metadata.
  */
 @Schema(description = "Items in the Amazon catalog and search related metadata.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:18.960277+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:09.169546+08:00[Asia/Shanghai]")
 public class ItemSearchResults {
   @SerializedName("numberOfResults")
   private Integer numberOfResults = null;

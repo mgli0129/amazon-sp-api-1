@@ -25,7 +25,7 @@ import java.io.IOException;
  * An error response returned when the request is unsuccessful.
  */
 @Schema(description = "An error response returned when the request is unsuccessful.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:23.393372+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:05:03.482145+08:00[Asia/Shanghai]")
 public class Error {
   @SerializedName("code")
   private String code = null;

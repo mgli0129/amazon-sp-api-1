@@ -26,7 +26,7 @@ import java.io.IOException;
  * A decorator applied to a content string value in order to create rich text.
  */
 @Schema(description = "A decorator applied to a content string value in order to create rich text.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:12.277960+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:02.980344+08:00[Asia/Shanghai]")
 public class Decorator {
   @SerializedName("type")
   private DecoratorType type = null;

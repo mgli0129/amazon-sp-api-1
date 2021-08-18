@@ -22,7 +22,7 @@ import java.util.List;
  * A set of order metrics, each scoped to a particular time interval.
  */
 @Schema(description = "A set of order metrics, each scoped to a particular time interval.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:15.794247+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:56.811117+08:00[Asia/Shanghai]")
 public class OrderMetricsList extends ArrayList<OrderMetricsInterval> {
 
   @Override

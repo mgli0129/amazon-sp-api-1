@@ -26,7 +26,7 @@ import java.io.IOException;
  * The shipping address details of the shipment.
  */
 @Schema(description = "The shipping address details of the shipment.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:23.393372+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:05:03.482145+08:00[Asia/Shanghai]")
 public class Address {
   @SerializedName("Name")
   private String name = null;

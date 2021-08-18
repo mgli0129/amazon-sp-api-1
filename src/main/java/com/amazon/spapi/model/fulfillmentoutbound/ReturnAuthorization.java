@@ -26,7 +26,7 @@ import java.io.IOException;
  * Return authorization information for items accepted for return.
  */
 @Schema(description = "Return authorization information for items accepted for return.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:41.384190+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:29.964921+08:00[Asia/Shanghai]")
 public class ReturnAuthorization {
   @SerializedName("returnAuthorizationId")
   private String returnAuthorizationId = null;

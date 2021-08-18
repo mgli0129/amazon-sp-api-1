@@ -27,7 +27,7 @@ import java.io.IOException;
  * The payload schema for the getInventorySummaries operation.
  */
 @Schema(description = "The payload schema for the getInventorySummaries operation.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:23.919789+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:14.610509+08:00[Asia/Shanghai]")
 public class GetInventorySummariesResult {
   @SerializedName("granularity")
   private Granularity granularity = null;

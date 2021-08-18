@@ -27,7 +27,7 @@ import java.io.IOException;
  * Reasons why a given seller SKU is not recommended for shipment to Amazon&#x27;s fulfillment network.
  */
 @Schema(description = "Reasons why a given seller SKU is not recommended for shipment to Amazon's fulfillment network.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:36.277615+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:25.138369+08:00[Asia/Shanghai]")
 public class SKUInboundGuidance {
   @SerializedName("SellerSKU")
   private String sellerSKU = null;

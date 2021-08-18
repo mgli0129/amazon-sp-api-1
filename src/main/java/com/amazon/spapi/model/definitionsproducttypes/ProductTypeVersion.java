@@ -25,7 +25,7 @@ import java.io.IOException;
  * The version details for an Amazon product type.
  */
 @Schema(description = "The version details for an Amazon product type.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:08.722679+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:52.525564+08:00[Asia/Shanghai]")
 public class ProductTypeVersion {
   @SerializedName("version")
   private String version = null;

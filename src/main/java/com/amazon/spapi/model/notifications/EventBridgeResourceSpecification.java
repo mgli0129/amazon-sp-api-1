@@ -25,7 +25,7 @@ import java.io.IOException;
  * The information required to create an Amazon EventBridge destination.
  */
 @Schema(description = "The information required to create an Amazon EventBridge destination.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:55.695715+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:42.296540+08:00[Asia/Shanghai]")
 public class EventBridgeResourceSpecification {
   @SerializedName("region")
   private String region = null;

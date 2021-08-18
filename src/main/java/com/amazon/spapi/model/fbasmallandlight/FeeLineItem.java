@@ -26,7 +26,7 @@ import java.io.IOException;
  * Fee details for a specific fee.
  */
 @Schema(description = "Fee details for a specific fee.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:26.188298+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:16.888029+08:00[Asia/Shanghai]")
 public class FeeLineItem {
   /**
    * The type of fee charged to the seller.

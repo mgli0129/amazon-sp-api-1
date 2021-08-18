@@ -28,7 +28,7 @@ import java.util.List;
  * Response containing the results of a submission to the Selling Partner API for Listings Items.
  */
 @Schema(description = "Response containing the results of a submission to the Selling Partner API for Listings Items.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:46.310021+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:34.171325+08:00[Asia/Shanghai]")
 public class ListingsItemSubmissionResponse {
   @SerializedName("sku")
   private String sku = null;

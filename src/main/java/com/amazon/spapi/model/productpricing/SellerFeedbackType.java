@@ -25,7 +25,7 @@ import java.io.IOException;
  * Information about the seller&#x27;s feedback, including the percentage of positive feedback, and the total number of ratings received.
  */
 @Schema(description = "Information about the seller's feedback, including the percentage of positive feedback, and the total number of ratings received.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:05.260775+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:49.696345+08:00[Asia/Shanghai]")
 public class SellerFeedbackType {
   @SerializedName("SellerPositiveFeedbackRating")
   private Double sellerPositiveFeedbackRating = null;

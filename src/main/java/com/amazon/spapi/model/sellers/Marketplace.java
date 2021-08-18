@@ -25,7 +25,7 @@ import java.io.IOException;
  * Detailed information about an Amazon market where a seller can list items for sale and customers can view and purchase items.
  */
 @Schema(description = "Detailed information about an Amazon market where a seller can list items for sale and customers can view and purchase items.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:18.078250+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:58.816909+08:00[Asia/Shanghai]")
 public class Marketplace {
   @SerializedName("id")
   private String id = null;

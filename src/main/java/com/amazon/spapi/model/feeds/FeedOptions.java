@@ -21,7 +21,7 @@ import java.util.Map;
  * Additional options to control the feed. These vary by feed type.
  */
 @Schema(description = "Additional options to control the feed. These vary by feed type.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:28.230655+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:19.034442+08:00[Asia/Shanghai]")
 public class FeedOptions extends HashMap<String, String> {
 
   @Override

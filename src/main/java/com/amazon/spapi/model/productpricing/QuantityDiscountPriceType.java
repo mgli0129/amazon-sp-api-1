@@ -27,7 +27,7 @@ import java.io.IOException;
  * Contains pricing information that includes special pricing when buying in bulk.
  */
 @Schema(description = "Contains pricing information that includes special pricing when buying in bulk.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:05.260775+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:49.696345+08:00[Asia/Shanghai]")
 public class QuantityDiscountPriceType {
   @SerializedName("quantityTier")
   private Integer quantityTier = null;

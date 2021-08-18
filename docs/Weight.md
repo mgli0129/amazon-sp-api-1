@@ -3,14 +3,14 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**unitOfMeasure** | [**UnitOfMeasureEnum**](#UnitOfMeasureEnum) | The unit of measurement. | 
-**value** | **String** |  | 
+**unit** | [**UnitEnum**](#UnitEnum) | The unit of measurement. | 
+**value** | [**BigDecimal**](BigDecimal.md) | The measurement value. | 
 
-<a name="UnitOfMeasureEnum"></a>
-## Enum: UnitOfMeasureEnum
+<a name="UnitEnum"></a>
+## Enum: UnitEnum
 Name | Value
 ---- | -----
-G | &quot;G&quot;
-KG | &quot;Kg&quot;
-OZ | &quot;Oz&quot;
-LB | &quot;Lb&quot;
+G | &quot;g&quot;
+KG | &quot;kg&quot;
+OZ | &quot;oz&quot;
+LB | &quot;lb&quot;

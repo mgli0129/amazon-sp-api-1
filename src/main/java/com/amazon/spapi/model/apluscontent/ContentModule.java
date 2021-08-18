@@ -41,7 +41,7 @@ import java.io.IOException;
  * An A+ Content module. An A+ Content document is composed of content modules. The contentModuleType property selects which content module types to use.
  */
 @Schema(description = "An A+ Content module. An A+ Content document is composed of content modules. The contentModuleType property selects which content module types to use.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:12.277960+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:02.980344+08:00[Asia/Shanghai]")
 public class ContentModule {
   @SerializedName("contentModuleType")
   private ContentModuleType contentModuleType = null;

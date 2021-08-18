@@ -22,7 +22,7 @@ import java.util.List;
  * Sales ranks of an Amazon catalog item.
  */
 @Schema(description = "Sales ranks of an Amazon catalog item.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:18.960277+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:09.169546+08:00[Asia/Shanghai]")
 public class ItemSalesRanks extends ArrayList<ItemSalesRanksByMarketplace> {
 
   @Override

@@ -27,7 +27,7 @@ import java.io.IOException;
  * Specifies the identifiers used to uniquely identify an item.
  */
 @Schema(description = "Specifies the identifiers used to uniquely identify an item.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:05.260775+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:49.696345+08:00[Asia/Shanghai]")
 public class IdentifierType {
   @SerializedName("MarketplaceASIN")
   private ASINIdentifier marketplaceASIN = null;

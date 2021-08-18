@@ -28,7 +28,7 @@ import org.threeten.bp.OffsetDateTime;
  * An event related to the seller&#x27;s Pay with Amazon account.
  */
 @Schema(description = "An event related to the seller's Pay with Amazon account.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:30.762647+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:21.202214+08:00[Asia/Shanghai]")
 public class PayWithAmazonEvent {
   @SerializedName("SellerOrderId")
   private String sellerOrderId = null;

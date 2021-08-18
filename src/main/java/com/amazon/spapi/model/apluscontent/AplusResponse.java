@@ -26,7 +26,7 @@ import java.io.IOException;
  * The base response data for all A+ Content operations when a request is successful or partially successful. Individual operations may extend this with additional data.
  */
 @Schema(description = "The base response data for all A+ Content operations when a request is successful or partially successful. Individual operations may extend this with additional data.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:12.277960+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:02.980344+08:00[Asia/Shanghai]")
 public class AplusResponse {
   @SerializedName("warnings")
   private MessageSet warnings = null;

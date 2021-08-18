@@ -3,22 +3,15 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**containerType** | [**ContainerTypeEnum**](#ContainerTypeEnum) | The type of container. | 
-**containerIdentifier** | **String** | The container identifier. | 
-**trackingNumber** | **String** | The tracking number. |  [optional]
-**manifestId** | **String** | The manifest identifier. |  [optional]
-**manifestDate** | **String** | The date of the manifest. |  [optional]
-**shipMethod** | **String** | The shipment method. |  [optional]
-**scacCode** | **String** | SCAC code required for NA VOC vendors only. |  [optional]
-**carrier** | **String** | Carrier required for EU VOC vendors only. |  [optional]
-**containerSequenceNumber** | **Integer** | An integer that must be submitted for multi-box shipments only, where one item may come in separate packages. |  [optional]
-**dimensions** | [**Dimensions**](Dimensions.md) |  |  [optional]
-**weight** | [**Weight**](Weight.md) |  |  [optional]
-**packedItems** | [**List&lt;PackedItem&gt;**](PackedItem.md) | A list of packed items. | 
+**containerType** | [**ContainerTypeEnum**](#ContainerTypeEnum) | The type of physical container being used. (always &#x27;PACKAGE&#x27;) |  [optional]
+**containerReferenceId** | **String** |  | 
+**value** | [**Currency**](Currency.md) |  | 
+**dimensions** | [**Dimensions**](Dimensions.md) |  | 
+**items** | [**List&lt;ContainerItem&gt;**](ContainerItem.md) | A list of the items in the container. | 
+**weight** | [**Weight**](Weight.md) |  | 
 
 <a name="ContainerTypeEnum"></a>
 ## Enum: ContainerTypeEnum
 Name | Value
 ---- | -----
-CARTON | &quot;carton&quot;
-PALLET | &quot;pallet&quot;
+PACKAGE | &quot;PACKAGE&quot;

@@ -27,7 +27,7 @@ import java.io.IOException;
  * Price information for an item, used to estimate fees.
  */
 @Schema(description = "Price information for an item, used to estimate fees.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:32:02.304133+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:47.454253+08:00[Asia/Shanghai]")
 public class PriceToEstimateFees {
   @SerializedName("ListingPrice")
   private MoneyType listingPrice = null;

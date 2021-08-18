@@ -27,7 +27,7 @@ import java.io.IOException;
  * Filter for use when requesting eligible shipping services.
  */
 @Schema(description = "Filter for use when requesting eligible shipping services.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:48.599131+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:36.286080+08:00[Asia/Shanghai]")
 public class ShippingOfferingFilter {
   @SerializedName("IncludePackingSlipWithLabel")
   private Boolean includePackingSlipWithLabel = null;

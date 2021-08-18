@@ -22,7 +22,7 @@ import java.util.List;
  * An array of fulfillment preview item information.
  */
 @Schema(description = "An array of fulfillment preview item information.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:41.384190+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:29.964921+08:00[Asia/Shanghai]")
 public class FulfillmentPreviewItemList extends ArrayList<FulfillmentPreviewItem> {
 
   @Override

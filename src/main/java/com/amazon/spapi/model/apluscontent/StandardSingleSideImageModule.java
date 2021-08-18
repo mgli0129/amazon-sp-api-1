@@ -27,7 +27,7 @@ import java.io.IOException;
  * A standard headline and body text with an image on the side.
  */
 @Schema(description = "A standard headline and body text with an image on the side.")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T11:31:12.277960+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-18T13:04:02.980344+08:00[Asia/Shanghai]")
 public class StandardSingleSideImageModule {
   @SerializedName("imagePositionType")
   private PositionType imagePositionType = null;
