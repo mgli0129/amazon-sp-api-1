@@ -13,16 +13,16 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.notifications.CreateDestinationRequest;
-import com.amazon.spapi.model.notifications.CreateDestinationResponse;
-import com.amazon.spapi.model.notifications.CreateSubscriptionRequest;
-import com.amazon.spapi.model.notifications.CreateSubscriptionResponse;
-import com.amazon.spapi.model.notifications.DeleteDestinationResponse;
-import com.amazon.spapi.model.notifications.DeleteSubscriptionByIdResponse;
-import com.amazon.spapi.model.notifications.GetDestinationResponse;
-import com.amazon.spapi.model.notifications.GetDestinationsResponse;
-import com.amazon.spapi.model.notifications.GetSubscriptionByIdResponse;
-import com.amazon.spapi.model.notifications.GetSubscriptionResponse;
+import com.amazon.spapi.models.notifications.CreateDestinationRequest;
+import com.amazon.spapi.models.notifications.CreateDestinationResponse;
+import com.amazon.spapi.models.notifications.CreateSubscriptionRequest;
+import com.amazon.spapi.models.notifications.CreateSubscriptionResponse;
+import com.amazon.spapi.models.notifications.DeleteDestinationResponse;
+import com.amazon.spapi.models.notifications.DeleteSubscriptionByIdResponse;
+import com.amazon.spapi.models.notifications.GetDestinationResponse;
+import com.amazon.spapi.models.notifications.GetDestinationsResponse;
+import com.amazon.spapi.models.notifications.GetSubscriptionByIdResponse;
+import com.amazon.spapi.models.notifications.GetSubscriptionResponse;
 import org.junit.Test;
 import org.junit.Ignore;
 

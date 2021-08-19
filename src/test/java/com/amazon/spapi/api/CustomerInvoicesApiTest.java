@@ -13,8 +13,8 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.vendordirectfulfillmentshippingv1.GetCustomerInvoiceResponse;
-import com.amazon.spapi.model.vendordirectfulfillmentshippingv1.GetCustomerInvoicesResponse;
+import com.amazon.spapi.models.vendordirectfulfillmentshipping.GetCustomerInvoiceResponse;
+import com.amazon.spapi.models.vendordirectfulfillmentshipping.GetCustomerInvoicesResponse;
 import org.threeten.bp.OffsetDateTime;
 import org.junit.Test;
 import org.junit.Ignore;

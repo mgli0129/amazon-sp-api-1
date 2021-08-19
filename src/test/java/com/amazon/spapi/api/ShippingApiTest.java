@@ -13,20 +13,20 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.shipping.CancelShipmentResponse;
-import com.amazon.spapi.model.shipping.CreateShipmentRequest;
-import com.amazon.spapi.model.shipping.CreateShipmentResponse;
-import com.amazon.spapi.model.shipping.GetAccountResponse;
-import com.amazon.spapi.model.shipping.GetRatesRequest;
-import com.amazon.spapi.model.shipping.GetRatesResponse;
-import com.amazon.spapi.model.shipping.GetShipmentResponse;
-import com.amazon.spapi.model.shipping.GetTrackingInformationResponse;
-import com.amazon.spapi.model.shipping.PurchaseLabelsRequest;
-import com.amazon.spapi.model.shipping.PurchaseLabelsResponse;
-import com.amazon.spapi.model.shipping.PurchaseShipmentRequest;
-import com.amazon.spapi.model.shipping.PurchaseShipmentResponse;
-import com.amazon.spapi.model.shipping.RetrieveShippingLabelRequest;
-import com.amazon.spapi.model.shipping.RetrieveShippingLabelResponse;
+import com.amazon.spapi.models.shipping.CancelShipmentResponse;
+import com.amazon.spapi.models.shipping.CreateShipmentRequest;
+import com.amazon.spapi.models.shipping.CreateShipmentResponse;
+import com.amazon.spapi.models.shipping.GetAccountResponse;
+import com.amazon.spapi.models.shipping.GetRatesRequest;
+import com.amazon.spapi.models.shipping.GetRatesResponse;
+import com.amazon.spapi.models.shipping.GetShipmentResponse;
+import com.amazon.spapi.models.shipping.GetTrackingInformationResponse;
+import com.amazon.spapi.models.shipping.PurchaseLabelsRequest;
+import com.amazon.spapi.models.shipping.PurchaseLabelsResponse;
+import com.amazon.spapi.models.shipping.PurchaseShipmentRequest;
+import com.amazon.spapi.models.shipping.PurchaseShipmentResponse;
+import com.amazon.spapi.models.shipping.RetrieveShippingLabelRequest;
+import com.amazon.spapi.models.shipping.RetrieveShippingLabelResponse;
 import org.junit.Test;
 import org.junit.Ignore;
 

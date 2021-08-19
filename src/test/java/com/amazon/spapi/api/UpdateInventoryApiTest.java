@@ -13,8 +13,8 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.vendordirectfulfillmentinventoryv1.SubmitInventoryUpdateRequest;
-import com.amazon.spapi.model.vendordirectfulfillmentinventoryv1.SubmitInventoryUpdateResponse;
+import com.amazon.spapi.models.vendordirectfulfillmentinventory.SubmitInventoryUpdateRequest;
+import com.amazon.spapi.models.vendordirectfulfillmentinventory.SubmitInventoryUpdateResponse;
 import org.junit.Test;
 import org.junit.Ignore;
 

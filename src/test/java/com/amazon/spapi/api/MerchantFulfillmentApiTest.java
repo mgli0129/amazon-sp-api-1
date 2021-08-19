@@ -13,14 +13,14 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.merchantfulfillment.CancelShipmentResponse;
-import com.amazon.spapi.model.merchantfulfillment.CreateShipmentRequest;
-import com.amazon.spapi.model.merchantfulfillment.CreateShipmentResponse;
-import com.amazon.spapi.model.merchantfulfillment.GetAdditionalSellerInputsRequest;
-import com.amazon.spapi.model.merchantfulfillment.GetAdditionalSellerInputsResponse;
-import com.amazon.spapi.model.merchantfulfillment.GetEligibleShipmentServicesRequest;
-import com.amazon.spapi.model.merchantfulfillment.GetEligibleShipmentServicesResponse;
-import com.amazon.spapi.model.merchantfulfillment.GetShipmentResponse;
+import com.amazon.spapi.models.merchantfulfillment.CancelShipmentResponse;
+import com.amazon.spapi.models.merchantfulfillment.CreateShipmentRequest;
+import com.amazon.spapi.models.merchantfulfillment.CreateShipmentResponse;
+import com.amazon.spapi.models.merchantfulfillment.GetAdditionalSellerInputsRequest;
+import com.amazon.spapi.models.merchantfulfillment.GetAdditionalSellerInputsResponse;
+import com.amazon.spapi.models.merchantfulfillment.GetEligibleShipmentServicesRequest;
+import com.amazon.spapi.models.merchantfulfillment.GetEligibleShipmentServicesResponse;
+import com.amazon.spapi.models.merchantfulfillment.GetShipmentResponse;
 import org.junit.Test;
 import org.junit.Ignore;
 

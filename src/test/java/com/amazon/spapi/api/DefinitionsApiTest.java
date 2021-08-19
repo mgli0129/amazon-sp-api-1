@@ -13,9 +13,9 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.definitionsproducttypes.ErrorList;
-import com.amazon.spapi.model.definitionsproducttypes.ProductTypeDefinition;
-import com.amazon.spapi.model.definitionsproducttypes.ProductTypeList;
+import com.amazon.spapi.models.producttypedefinitions.ErrorList;
+import com.amazon.spapi.models.producttypedefinitions.ProductTypeDefinition;
+import com.amazon.spapi.models.producttypedefinitions.ProductTypeList;
 import org.junit.Test;
 import org.junit.Ignore;
 

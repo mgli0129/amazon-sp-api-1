@@ -13,9 +13,9 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.catalogitems.ErrorList;
-import com.amazon.spapi.model.catalogitems.Item;
-import com.amazon.spapi.model.catalogitems.ItemSearchResults;
+import com.amazon.spapi.models.catalogitems.ErrorList;
+import com.amazon.spapi.models.catalogitems.Item;
+import com.amazon.spapi.models.catalogitems.ItemSearchResults;
 import org.junit.Test;
 import org.junit.Ignore;
 

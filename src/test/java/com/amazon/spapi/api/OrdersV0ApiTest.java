@@ -13,12 +13,12 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.orders.GetOrderAddressResponse;
-import com.amazon.spapi.model.orders.GetOrderBuyerInfoResponse;
-import com.amazon.spapi.model.orders.GetOrderItemsBuyerInfoResponse;
-import com.amazon.spapi.model.orders.GetOrderItemsResponse;
-import com.amazon.spapi.model.orders.GetOrderResponse;
-import com.amazon.spapi.model.orders.GetOrdersResponse;
+import com.amazon.spapi.models.orders.GetOrderAddressResponse;
+import com.amazon.spapi.models.orders.GetOrderBuyerInfoResponse;
+import com.amazon.spapi.models.orders.GetOrderItemsBuyerInfoResponse;
+import com.amazon.spapi.models.orders.GetOrderItemsResponse;
+import com.amazon.spapi.models.orders.GetOrderResponse;
+import com.amazon.spapi.models.orders.GetOrdersResponse;
 import org.junit.Test;
 import org.junit.Ignore;
 

@@ -13,7 +13,7 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.sellers.GetMarketplaceParticipationsResponse;
+import com.amazon.spapi.models.sellers.GetMarketplaceParticipationsResponse;
 import org.junit.Test;
 import org.junit.Ignore;
 

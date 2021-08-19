@@ -13,10 +13,10 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.listingsitems.ErrorList;
-import com.amazon.spapi.model.listingsitems.ListingsItemPatchRequest;
-import com.amazon.spapi.model.listingsitems.ListingsItemPutRequest;
-import com.amazon.spapi.model.listingsitems.ListingsItemSubmissionResponse;
+import com.amazon.spapi.models.listingsitems.ErrorList;
+import com.amazon.spapi.models.listingsitems.ListingsItemPatchRequest;
+import com.amazon.spapi.models.listingsitems.ListingsItemPutRequest;
+import com.amazon.spapi.models.listingsitems.ListingsItemSubmissionResponse;
 import org.junit.Test;
 import org.junit.Ignore;
 

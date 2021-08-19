@@ -13,18 +13,18 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.apluscontent.ErrorList;
-import com.amazon.spapi.model.apluscontent.GetContentDocumentResponse;
-import com.amazon.spapi.model.apluscontent.ListContentDocumentAsinRelationsResponse;
-import com.amazon.spapi.model.apluscontent.PostContentDocumentApprovalSubmissionResponse;
-import com.amazon.spapi.model.apluscontent.PostContentDocumentAsinRelationsRequest;
-import com.amazon.spapi.model.apluscontent.PostContentDocumentAsinRelationsResponse;
-import com.amazon.spapi.model.apluscontent.PostContentDocumentRequest;
-import com.amazon.spapi.model.apluscontent.PostContentDocumentResponse;
-import com.amazon.spapi.model.apluscontent.PostContentDocumentSuspendSubmissionResponse;
-import com.amazon.spapi.model.apluscontent.SearchContentDocumentsResponse;
-import com.amazon.spapi.model.apluscontent.SearchContentPublishRecordsResponse;
-import com.amazon.spapi.model.apluscontent.ValidateContentDocumentAsinRelationsResponse;
+import com.amazon.spapi.models.apluscontent.ErrorList;
+import com.amazon.spapi.models.apluscontent.GetContentDocumentResponse;
+import com.amazon.spapi.models.apluscontent.ListContentDocumentAsinRelationsResponse;
+import com.amazon.spapi.models.apluscontent.PostContentDocumentApprovalSubmissionResponse;
+import com.amazon.spapi.models.apluscontent.PostContentDocumentAsinRelationsRequest;
+import com.amazon.spapi.models.apluscontent.PostContentDocumentAsinRelationsResponse;
+import com.amazon.spapi.models.apluscontent.PostContentDocumentRequest;
+import com.amazon.spapi.models.apluscontent.PostContentDocumentResponse;
+import com.amazon.spapi.models.apluscontent.PostContentDocumentSuspendSubmissionResponse;
+import com.amazon.spapi.models.apluscontent.SearchContentDocumentsResponse;
+import com.amazon.spapi.models.apluscontent.SearchContentPublishRecordsResponse;
+import com.amazon.spapi.models.apluscontent.ValidateContentDocumentAsinRelationsResponse;
 import org.junit.Test;
 import org.junit.Ignore;
 

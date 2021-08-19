@@ -13,13 +13,13 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.services.AddAppointmentRequest;
-import com.amazon.spapi.model.services.CancelServiceJobByServiceJobIdResponse;
-import com.amazon.spapi.model.services.CompleteServiceJobByServiceJobIdResponse;
-import com.amazon.spapi.model.services.GetServiceJobByServiceJobIdResponse;
-import com.amazon.spapi.model.services.GetServiceJobsResponse;
-import com.amazon.spapi.model.services.RescheduleAppointmentRequest;
-import com.amazon.spapi.model.services.SetAppointmentResponse;
+import com.amazon.spapi.models.services.AddAppointmentRequest;
+import com.amazon.spapi.models.services.CancelServiceJobByServiceJobIdResponse;
+import com.amazon.spapi.models.services.CompleteServiceJobByServiceJobIdResponse;
+import com.amazon.spapi.models.services.GetServiceJobByServiceJobIdResponse;
+import com.amazon.spapi.models.services.GetServiceJobsResponse;
+import com.amazon.spapi.models.services.RescheduleAppointmentRequest;
+import com.amazon.spapi.models.services.SetAppointmentResponse;
 import org.junit.Test;
 import org.junit.Ignore;
 

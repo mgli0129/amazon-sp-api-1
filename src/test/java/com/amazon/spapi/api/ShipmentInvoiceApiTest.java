@@ -13,10 +13,10 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.shipmentinvoicing.GetInvoiceStatusResponse;
-import com.amazon.spapi.model.shipmentinvoicing.GetShipmentDetailsResponse;
-import com.amazon.spapi.model.shipmentinvoicing.SubmitInvoiceRequest;
-import com.amazon.spapi.model.shipmentinvoicing.SubmitInvoiceResponse;
+import com.amazon.spapi.models.shipmentinvoicing.GetInvoiceStatusResponse;
+import com.amazon.spapi.models.shipmentinvoicing.GetShipmentDetailsResponse;
+import com.amazon.spapi.models.shipmentinvoicing.SubmitInvoiceRequest;
+import com.amazon.spapi.models.shipmentinvoicing.SubmitInvoiceResponse;
 import org.junit.Test;
 import org.junit.Ignore;
 

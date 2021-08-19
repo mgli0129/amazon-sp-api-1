@@ -13,7 +13,7 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.sales.GetOrderMetricsResponse;
+import com.amazon.spapi.models.sales.GetOrderMetricsResponse;
 import org.junit.Test;
 import org.junit.Ignore;
 

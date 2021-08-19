@@ -13,9 +13,9 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.tokens.CreateRestrictedDataTokenRequest;
-import com.amazon.spapi.model.tokens.CreateRestrictedDataTokenResponse;
-import com.amazon.spapi.model.tokens.ErrorList;
+import com.amazon.spapi.models.tokens.CreateRestrictedDataTokenRequest;
+import com.amazon.spapi.models.tokens.CreateRestrictedDataTokenResponse;
+import com.amazon.spapi.models.tokens.ErrorList;
 import org.junit.Test;
 import org.junit.Ignore;
 

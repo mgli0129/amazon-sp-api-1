@@ -13,11 +13,11 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.fbasmallandlight.ErrorList;
-import com.amazon.spapi.model.fbasmallandlight.SmallAndLightEligibility;
-import com.amazon.spapi.model.fbasmallandlight.SmallAndLightEnrollment;
-import com.amazon.spapi.model.fbasmallandlight.SmallAndLightFeePreviewRequest;
-import com.amazon.spapi.model.fbasmallandlight.SmallAndLightFeePreviews;
+import com.amazon.spapi.models.fbasmallandlight.ErrorList;
+import com.amazon.spapi.models.fbasmallandlight.SmallAndLightEligibility;
+import com.amazon.spapi.models.fbasmallandlight.SmallAndLightEnrollment;
+import com.amazon.spapi.models.fbasmallandlight.SmallAndLightFeePreviewRequest;
+import com.amazon.spapi.models.fbasmallandlight.SmallAndLightFeePreviews;
 import org.junit.Test;
 import org.junit.Ignore;
 

@@ -13,14 +13,14 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.feeds.CreateFeedDocumentResponse;
-import com.amazon.spapi.model.feeds.CreateFeedDocumentSpecification;
-import com.amazon.spapi.model.feeds.CreateFeedResponse;
-import com.amazon.spapi.model.feeds.CreateFeedSpecification;
-import com.amazon.spapi.model.feeds.ErrorList;
-import com.amazon.spapi.model.feeds.Feed;
-import com.amazon.spapi.model.feeds.FeedDocument;
-import com.amazon.spapi.model.feeds.GetFeedsResponse;
+import com.amazon.spapi.models.feeds.CreateFeedDocumentResponse;
+import com.amazon.spapi.models.feeds.CreateFeedDocumentSpecification;
+import com.amazon.spapi.models.feeds.CreateFeedResponse;
+import com.amazon.spapi.models.feeds.CreateFeedSpecification;
+import com.amazon.spapi.models.feeds.ErrorList;
+import com.amazon.spapi.models.feeds.Feed;
+import com.amazon.spapi.models.feeds.FeedDocument;
+import com.amazon.spapi.models.feeds.GetFeedsResponse;
 import org.threeten.bp.OffsetDateTime;
 import org.junit.Test;
 import org.junit.Ignore;

@@ -13,7 +13,7 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.fbainventory.GetInventorySummariesResponse;
+import com.amazon.spapi.models.fbainventory.GetInventorySummariesResponse;
 import org.threeten.bp.OffsetDateTime;
 import org.junit.Test;
 import org.junit.Ignore;

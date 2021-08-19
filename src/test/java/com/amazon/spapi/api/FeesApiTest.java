@@ -13,8 +13,8 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.productfees.GetMyFeesEstimateRequest;
-import com.amazon.spapi.model.productfees.GetMyFeesEstimateResponse;
+import com.amazon.spapi.models.productfees.GetMyFeesEstimateRequest;
+import com.amazon.spapi.models.productfees.GetMyFeesEstimateResponse;
 import org.junit.Test;
 import org.junit.Ignore;
 

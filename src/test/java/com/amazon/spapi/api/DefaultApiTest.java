@@ -13,8 +13,8 @@
 package com.amazon.spapi.api;
 
 import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.model.finances.ListFinancialEventGroupsResponse;
-import com.amazon.spapi.model.finances.ListFinancialEventsResponse;
+import com.amazon.spapi.models.finances.ListFinancialEventGroupsResponse;
+import com.amazon.spapi.models.finances.ListFinancialEventsResponse;
 import org.threeten.bp.OffsetDateTime;
 import org.junit.Test;
 import org.junit.Ignore;
