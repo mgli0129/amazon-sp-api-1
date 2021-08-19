@@ -1,6 +1,6 @@
 /*
- * Selling Partner API for Retail Procurement Transaction Status
- * The Selling Partner API for Retail Procurement Transaction Status provides programmatic access to status information on specific asynchronous POST transactions for vendors.
+ * Selling Partner API for Authorization
+ * The Selling Partner API for Authorization helps developers manage authorizations and check the specific permissions associated with a given authorization.
  *
  * OpenAPI spec version: v1
  *
@@ -12,22 +12,12 @@
 
 package com.amazon.spapi.api;
 
-import com.amazon.spapi.client.ApiCallback;
-import com.amazon.spapi.client.ApiClient;
-import com.amazon.spapi.client.ApiException;
-import com.amazon.spapi.client.ApiResponse;
-import com.amazon.spapi.client.Configuration;
-import com.amazon.spapi.client.Pair;
-import com.amazon.spapi.client.ProgressRequestBody;
-import com.amazon.spapi.client.ProgressResponseBody;
-
+import com.amazon.SellingPartnerAPIAA.*;
+import com.amazon.spapi.client.*;
+import com.amazon.spapi.models.vendortransactionstatus.GetTransactionResponse;
 import com.google.gson.reflect.TypeToken;
 
 import java.io.IOException;
-
-
-import com.amazon.spapi.model.vendortransactionstatus.GetTransactionResponse;
-
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -37,7 +27,7 @@ import java.util.Map;
 public class VendorTransactionApi {
     private ApiClient apiClient;
 
-    public VendorTransactionApi() {
+    VendorTransactionApi() {
         this(Configuration.getDefaultApiClient());
     }
 
@@ -90,7 +80,7 @@ public class VendorTransactionApi {
         if(progressListener != null) {
             apiClient.getHttpClient().networkInterceptors().add(new com.squareup.okhttp.Interceptor() {
                 @Override
-                public com.squareup.okhttp.Response intercept(com.squareup.okhttp.Interceptor.Chain chain) throws IOException {
+                public com.squareup.okhttp.Response intercept(Chain chain) throws IOException {
                     com.squareup.okhttp.Response originalResponse = chain.proceed(chain.request());
                     return originalResponse.newBuilder()
                     .body(new ProgressResponseBody(originalResponse.body(), progressListener))
@@ -112,10 +102,6 @@ public class VendorTransactionApi {
 
         com.squareup.okhttp.Call call = getTransactionCall(transactionId, progressListener, progressRequestListener);
         return call;
-
-
-
-
 
     }
 
@@ -177,5 +163,95 @@ public class VendorTransactionApi {
         Type localVarReturnType = new TypeToken<GetTransactionResponse>(){}.getType();
         apiClient.executeAsync(call, localVarReturnType, callback);
         return call;
+    }
+
+    public static class Builder {
+        private AWSAuthenticationCredentials awsAuthenticationCredentials;
+        private LWAAuthorizationCredentials lwaAuthorizationCredentials;
+        private String endpoint;
+        private LWAAccessTokenCache lwaAccessTokenCache;
+        private Boolean disableAccessTokenCache = false;
+        private AWSAuthenticationCredentialsProvider awsAuthenticationCredentialsProvider;
+        private RateLimitConfiguration rateLimitConfiguration;
+
+        public Builder awsAuthenticationCredentials(AWSAuthenticationCredentials awsAuthenticationCredentials) {
+            this.awsAuthenticationCredentials = awsAuthenticationCredentials;
+            return this;
+        }
+
+        public Builder lwaAuthorizationCredentials(LWAAuthorizationCredentials lwaAuthorizationCredentials) {
+            this.lwaAuthorizationCredentials = lwaAuthorizationCredentials;
+            return this;
+        }
+
+        public Builder endpoint(String endpoint) {
+            this.endpoint = endpoint;
+            return this;
+        }
+
+        public Builder lwaAccessTokenCache(LWAAccessTokenCache lwaAccessTokenCache) {
+            this.lwaAccessTokenCache = lwaAccessTokenCache;
+            return this;
+        }
+
+	   public Builder disableAccessTokenCache() {
+            this.disableAccessTokenCache = true;
+            return this;
+        }
+
+        public Builder awsAuthenticationCredentialsProvider(AWSAuthenticationCredentialsProvider awsAuthenticationCredentialsProvider) {
+            this.awsAuthenticationCredentialsProvider = awsAuthenticationCredentialsProvider;
+            return this;
+        }
+
+        public Builder rateLimitConfigurationOnRequests(RateLimitConfiguration rateLimitConfiguration){
+            this.rateLimitConfiguration = rateLimitConfiguration;
+            return this;
+        }
+
+        public Builder disableRateLimitOnRequests() {
+            this.rateLimitConfiguration = null;
+            return this;
+        }
+
+
+        public VendorTransactionApi build() {
+            if (awsAuthenticationCredentials == null) {
+                throw new RuntimeException("AWSAuthenticationCredentials not set");
+            }
+
+            if (lwaAuthorizationCredentials == null) {
+                throw new RuntimeException("LWAAuthorizationCredentials not set");
+            }
+
+            if (StringUtil.isEmpty(endpoint)) {
+                throw new RuntimeException("Endpoint not set");
+            }
+
+            AWSSigV4Signer awsSigV4Signer;
+            if ( awsAuthenticationCredentialsProvider == null) {
+                awsSigV4Signer = new AWSSigV4Signer(awsAuthenticationCredentials);
+            }
+            else {
+                awsSigV4Signer = new AWSSigV4Signer(awsAuthenticationCredentials,awsAuthenticationCredentialsProvider);
+            }
+
+            LWAAuthorizationSigner lwaAuthorizationSigner = null;
+            if (disableAccessTokenCache) {
+                lwaAuthorizationSigner = new LWAAuthorizationSigner(lwaAuthorizationCredentials);
+            }
+            else {
+                if (lwaAccessTokenCache == null) {
+                    lwaAccessTokenCache = new LWAAccessTokenCacheImpl();
+                 }
+                 lwaAuthorizationSigner = new LWAAuthorizationSigner(lwaAuthorizationCredentials,lwaAccessTokenCache);
+            }
+
+            return new VendorTransactionApi(new ApiClient()
+                .setAWSSigV4Signer(awsSigV4Signer)
+                .setLWAAuthorizationSigner(lwaAuthorizationSigner)
+                .setBasePath(endpoint)
+                .setRateLimiter(rateLimitConfiguration));
+        }
     }
 }

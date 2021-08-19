@@ -73,252 +73,251 @@ Please follow the [installation](#installation) instruction and execute the foll
 
 ```java
 import com.amazon.spapi.client.*;
-import com.amazon.spapi.client.auth.*;
+import com.amazon.spapi.auth.*;
 import com.amazon.spapi.model.apluscontent.*;
 import com.amazon.spapi.api.AplusContentApi;
 
-import java.io.File;
 import java.util.*;
 
 public class AplusContentApiExample {
 
-    public static void main(String[] args) {
-        
-        AplusContentApi apiInstance = new AplusContentApi();
-        PostContentDocumentRequest body = new PostContentDocumentRequest(); // PostContentDocumentRequest | The content document request details.
-        String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
-        try {
-            PostContentDocumentResponse result = apiInstance.createContentDocument(body, marketplaceId);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling AplusContentApi#createContentDocument");
-            e.printStackTrace();
-        }
+  public static void main(String[] args) {
+
+    AplusContentApi apiInstance = new AplusContentApi();
+    PostContentDocumentRequest body = new PostContentDocumentRequest(); // PostContentDocumentRequest | The content document request details.
+    String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
+    try {
+      PostContentDocumentResponse result = apiInstance.createContentDocument(body, marketplaceId);
+      System.out.println(result);
+    } catch (ApiException e) {
+      System.err.println("Exception when calling AplusContentApi#createContentDocument");
+      e.printStackTrace();
     }
+  }
 }
 import com.amazon.spapi.client.*;
-import com.amazon.spapi.client.auth.*;
-import com.amazon.spapi.model.apluscontent.*;
-import com.amazon.spapi.api.AplusContentApi;
+        import com.amazon.spapi.client.auth.*;
+        import com.amazon.spapi.model.apluscontent.*;
+        import com.amazon.spapi.api.AplusContentApi;
 
-import java.io.File;
-import java.util.*;
+        import java.io.File;
+        import java.util.*;
 
 public class AplusContentApiExample {
 
-    public static void main(String[] args) {
-        
-        AplusContentApi apiInstance = new AplusContentApi();
-        String contentReferenceKey = "contentReferenceKey_example"; // String | The unique reference key for the A+ Content document. A content reference key cannot form a permalink and may change in the future. A content reference key is not guaranteed to match any A+ Content identifier.
-        String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
-        List<String> includedDataSet = Arrays.asList("includedDataSet_example"); // List<String> | The set of A+ Content data types to include in the response.
-        try {
-            GetContentDocumentResponse result = apiInstance.getContentDocument(contentReferenceKey, marketplaceId, includedDataSet);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling AplusContentApi#getContentDocument");
-            e.printStackTrace();
-        }
+  public static void main(String[] args) {
+
+    AplusContentApi apiInstance = new AplusContentApi();
+    String contentReferenceKey = "contentReferenceKey_example"; // String | The unique reference key for the A+ Content document. A content reference key cannot form a permalink and may change in the future. A content reference key is not guaranteed to match any A+ Content identifier.
+    String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
+    List<String> includedDataSet = Arrays.asList("includedDataSet_example"); // List<String> | The set of A+ Content data types to include in the response.
+    try {
+      GetContentDocumentResponse result = apiInstance.getContentDocument(contentReferenceKey, marketplaceId, includedDataSet);
+      System.out.println(result);
+    } catch (ApiException e) {
+      System.err.println("Exception when calling AplusContentApi#getContentDocument");
+      e.printStackTrace();
     }
+  }
 }
 import com.amazon.spapi.client.*;
-import com.amazon.spapi.client.auth.*;
-import com.amazon.spapi.model.apluscontent.*;
-import com.amazon.spapi.api.AplusContentApi;
+        import com.amazon.spapi.client.auth.*;
+        import com.amazon.spapi.model.apluscontent.*;
+        import com.amazon.spapi.api.AplusContentApi;
 
-import java.io.File;
-import java.util.*;
+        import java.io.File;
+        import java.util.*;
 
 public class AplusContentApiExample {
 
-    public static void main(String[] args) {
-        
-        AplusContentApi apiInstance = new AplusContentApi();
-        String contentReferenceKey = "contentReferenceKey_example"; // String | The unique reference key for the A+ Content document. A content reference key cannot form a permalink and may change in the future. A content reference key is not guaranteed to match any A+ Content identifier.
-        String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
-        List<String> includedDataSet = Arrays.asList("includedDataSet_example"); // List<String> | The set of A+ Content data types to include in the response. If you do not include this parameter, the operation returns the related ASINs without metadata.
-        List<String> asinSet = Arrays.asList("asinSet_example"); // List<String> | The set of ASINs.
-        String pageToken = "pageToken_example"; // String | A page token from the nextPageToken response element returned by your previous call to this operation. nextPageToken is returned when the results of a call exceed the page size. To get the next page of results, call the operation and include pageToken as the only parameter. Specifying pageToken with any other parameter will cause the request to fail. When no nextPageToken value is returned there are no more pages to return. A pageToken value is not usable across different operations.
-        try {
-            ListContentDocumentAsinRelationsResponse result = apiInstance.listContentDocumentAsinRelations(contentReferenceKey, marketplaceId, includedDataSet, asinSet, pageToken);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling AplusContentApi#listContentDocumentAsinRelations");
-            e.printStackTrace();
-        }
+  public static void main(String[] args) {
+
+    AplusContentApi apiInstance = new AplusContentApi();
+    String contentReferenceKey = "contentReferenceKey_example"; // String | The unique reference key for the A+ Content document. A content reference key cannot form a permalink and may change in the future. A content reference key is not guaranteed to match any A+ Content identifier.
+    String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
+    List<String> includedDataSet = Arrays.asList("includedDataSet_example"); // List<String> | The set of A+ Content data types to include in the response. If you do not include this parameter, the operation returns the related ASINs without metadata.
+    List<String> asinSet = Arrays.asList("asinSet_example"); // List<String> | The set of ASINs.
+    String pageToken = "pageToken_example"; // String | A page token from the nextPageToken response element returned by your previous call to this operation. nextPageToken is returned when the results of a call exceed the page size. To get the next page of results, call the operation and include pageToken as the only parameter. Specifying pageToken with any other parameter will cause the request to fail. When no nextPageToken value is returned there are no more pages to return. A pageToken value is not usable across different operations.
+    try {
+      ListContentDocumentAsinRelationsResponse result = apiInstance.listContentDocumentAsinRelations(contentReferenceKey, marketplaceId, includedDataSet, asinSet, pageToken);
+      System.out.println(result);
+    } catch (ApiException e) {
+      System.err.println("Exception when calling AplusContentApi#listContentDocumentAsinRelations");
+      e.printStackTrace();
     }
+  }
 }
 import com.amazon.spapi.client.*;
-import com.amazon.spapi.client.auth.*;
-import com.amazon.spapi.model.apluscontent.*;
-import com.amazon.spapi.api.AplusContentApi;
+        import com.amazon.spapi.client.auth.*;
+        import com.amazon.spapi.model.apluscontent.*;
+        import com.amazon.spapi.api.AplusContentApi;
 
-import java.io.File;
-import java.util.*;
+        import java.io.File;
+        import java.util.*;
 
 public class AplusContentApiExample {
 
-    public static void main(String[] args) {
-        
-        AplusContentApi apiInstance = new AplusContentApi();
-        String contentReferenceKey = "contentReferenceKey_example"; // String | The unique reference key for the A+ Content document. A content reference key cannot form a permalink and may change in the future. A content reference key is not guaranteed to match any A+ content identifier.
-        String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
-        try {
-            PostContentDocumentApprovalSubmissionResponse result = apiInstance.postContentDocumentApprovalSubmission(contentReferenceKey, marketplaceId);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling AplusContentApi#postContentDocumentApprovalSubmission");
-            e.printStackTrace();
-        }
+  public static void main(String[] args) {
+
+    AplusContentApi apiInstance = new AplusContentApi();
+    String contentReferenceKey = "contentReferenceKey_example"; // String | The unique reference key for the A+ Content document. A content reference key cannot form a permalink and may change in the future. A content reference key is not guaranteed to match any A+ content identifier.
+    String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
+    try {
+      PostContentDocumentApprovalSubmissionResponse result = apiInstance.postContentDocumentApprovalSubmission(contentReferenceKey, marketplaceId);
+      System.out.println(result);
+    } catch (ApiException e) {
+      System.err.println("Exception when calling AplusContentApi#postContentDocumentApprovalSubmission");
+      e.printStackTrace();
     }
+  }
 }
 import com.amazon.spapi.client.*;
-import com.amazon.spapi.client.auth.*;
-import com.amazon.spapi.model.apluscontent.*;
-import com.amazon.spapi.api.AplusContentApi;
+        import com.amazon.spapi.client.auth.*;
+        import com.amazon.spapi.model.apluscontent.*;
+        import com.amazon.spapi.api.AplusContentApi;
 
-import java.io.File;
-import java.util.*;
+        import java.io.File;
+        import java.util.*;
 
 public class AplusContentApiExample {
 
-    public static void main(String[] args) {
-        
-        AplusContentApi apiInstance = new AplusContentApi();
-        PostContentDocumentAsinRelationsRequest body = new PostContentDocumentAsinRelationsRequest(); // PostContentDocumentAsinRelationsRequest | The content document ASIN relations request details.
-        String contentReferenceKey = "contentReferenceKey_example"; // String | The unique reference key for the A+ Content document. A content reference key cannot form a permalink and may change in the future. A content reference key is not guaranteed to match any A+ content identifier.
-        String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
-        try {
-            PostContentDocumentAsinRelationsResponse result = apiInstance.postContentDocumentAsinRelations(body, contentReferenceKey, marketplaceId);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling AplusContentApi#postContentDocumentAsinRelations");
-            e.printStackTrace();
-        }
+  public static void main(String[] args) {
+
+    AplusContentApi apiInstance = new AplusContentApi();
+    PostContentDocumentAsinRelationsRequest body = new PostContentDocumentAsinRelationsRequest(); // PostContentDocumentAsinRelationsRequest | The content document ASIN relations request details.
+    String contentReferenceKey = "contentReferenceKey_example"; // String | The unique reference key for the A+ Content document. A content reference key cannot form a permalink and may change in the future. A content reference key is not guaranteed to match any A+ content identifier.
+    String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
+    try {
+      PostContentDocumentAsinRelationsResponse result = apiInstance.postContentDocumentAsinRelations(body, contentReferenceKey, marketplaceId);
+      System.out.println(result);
+    } catch (ApiException e) {
+      System.err.println("Exception when calling AplusContentApi#postContentDocumentAsinRelations");
+      e.printStackTrace();
     }
+  }
 }
 import com.amazon.spapi.client.*;
-import com.amazon.spapi.client.auth.*;
-import com.amazon.spapi.model.apluscontent.*;
-import com.amazon.spapi.api.AplusContentApi;
+        import com.amazon.spapi.client.auth.*;
+        import com.amazon.spapi.model.apluscontent.*;
+        import com.amazon.spapi.api.AplusContentApi;
 
-import java.io.File;
-import java.util.*;
+        import java.io.File;
+        import java.util.*;
 
 public class AplusContentApiExample {
 
-    public static void main(String[] args) {
-        
-        AplusContentApi apiInstance = new AplusContentApi();
-        String contentReferenceKey = "contentReferenceKey_example"; // String | The unique reference key for the A+ Content document. A content reference key cannot form a permalink and may change in the future. A content reference key is not guaranteed to match any A+ content identifier.
-        String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
-        try {
-            PostContentDocumentSuspendSubmissionResponse result = apiInstance.postContentDocumentSuspendSubmission(contentReferenceKey, marketplaceId);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling AplusContentApi#postContentDocumentSuspendSubmission");
-            e.printStackTrace();
-        }
+  public static void main(String[] args) {
+
+    AplusContentApi apiInstance = new AplusContentApi();
+    String contentReferenceKey = "contentReferenceKey_example"; // String | The unique reference key for the A+ Content document. A content reference key cannot form a permalink and may change in the future. A content reference key is not guaranteed to match any A+ content identifier.
+    String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
+    try {
+      PostContentDocumentSuspendSubmissionResponse result = apiInstance.postContentDocumentSuspendSubmission(contentReferenceKey, marketplaceId);
+      System.out.println(result);
+    } catch (ApiException e) {
+      System.err.println("Exception when calling AplusContentApi#postContentDocumentSuspendSubmission");
+      e.printStackTrace();
     }
+  }
 }
 import com.amazon.spapi.client.*;
-import com.amazon.spapi.client.auth.*;
-import com.amazon.spapi.model.apluscontent.*;
-import com.amazon.spapi.api.AplusContentApi;
+        import com.amazon.spapi.client.auth.*;
+        import com.amazon.spapi.model.apluscontent.*;
+        import com.amazon.spapi.api.AplusContentApi;
 
-import java.io.File;
-import java.util.*;
+        import java.io.File;
+        import java.util.*;
 
 public class AplusContentApiExample {
 
-    public static void main(String[] args) {
-        
-        AplusContentApi apiInstance = new AplusContentApi();
-        String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
-        String pageToken = "pageToken_example"; // String | A page token from the nextPageToken response element returned by your previous call to this operation. nextPageToken is returned when the results of a call exceed the page size. To get the next page of results, call the operation and include pageToken as the only parameter. Specifying pageToken with any other parameter will cause the request to fail. When no nextPageToken value is returned there are no more pages to return. A pageToken value is not usable across different operations.
-        try {
-            SearchContentDocumentsResponse result = apiInstance.searchContentDocuments(marketplaceId, pageToken);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling AplusContentApi#searchContentDocuments");
-            e.printStackTrace();
-        }
+  public static void main(String[] args) {
+
+    AplusContentApi apiInstance = new AplusContentApi();
+    String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
+    String pageToken = "pageToken_example"; // String | A page token from the nextPageToken response element returned by your previous call to this operation. nextPageToken is returned when the results of a call exceed the page size. To get the next page of results, call the operation and include pageToken as the only parameter. Specifying pageToken with any other parameter will cause the request to fail. When no nextPageToken value is returned there are no more pages to return. A pageToken value is not usable across different operations.
+    try {
+      SearchContentDocumentsResponse result = apiInstance.searchContentDocuments(marketplaceId, pageToken);
+      System.out.println(result);
+    } catch (ApiException e) {
+      System.err.println("Exception when calling AplusContentApi#searchContentDocuments");
+      e.printStackTrace();
     }
+  }
 }
 import com.amazon.spapi.client.*;
-import com.amazon.spapi.client.auth.*;
-import com.amazon.spapi.model.apluscontent.*;
-import com.amazon.spapi.api.AplusContentApi;
+        import com.amazon.spapi.client.auth.*;
+        import com.amazon.spapi.model.apluscontent.*;
+        import com.amazon.spapi.api.AplusContentApi;
 
-import java.io.File;
-import java.util.*;
+        import java.io.File;
+        import java.util.*;
 
 public class AplusContentApiExample {
 
-    public static void main(String[] args) {
-        
-        AplusContentApi apiInstance = new AplusContentApi();
-        String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
-        String asin = "asin_example"; // String | The Amazon Standard Identification Number (ASIN).
-        String pageToken = "pageToken_example"; // String | A page token from the nextPageToken response element returned by your previous call to this operation. nextPageToken is returned when the results of a call exceed the page size. To get the next page of results, call the operation and include pageToken as the only parameter. Specifying pageToken with any other parameter will cause the request to fail. When no nextPageToken value is returned there are no more pages to return. A pageToken value is not usable across different operations.
-        try {
-            SearchContentPublishRecordsResponse result = apiInstance.searchContentPublishRecords(marketplaceId, asin, pageToken);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling AplusContentApi#searchContentPublishRecords");
-            e.printStackTrace();
-        }
+  public static void main(String[] args) {
+
+    AplusContentApi apiInstance = new AplusContentApi();
+    String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
+    String asin = "asin_example"; // String | The Amazon Standard Identification Number (ASIN).
+    String pageToken = "pageToken_example"; // String | A page token from the nextPageToken response element returned by your previous call to this operation. nextPageToken is returned when the results of a call exceed the page size. To get the next page of results, call the operation and include pageToken as the only parameter. Specifying pageToken with any other parameter will cause the request to fail. When no nextPageToken value is returned there are no more pages to return. A pageToken value is not usable across different operations.
+    try {
+      SearchContentPublishRecordsResponse result = apiInstance.searchContentPublishRecords(marketplaceId, asin, pageToken);
+      System.out.println(result);
+    } catch (ApiException e) {
+      System.err.println("Exception when calling AplusContentApi#searchContentPublishRecords");
+      e.printStackTrace();
     }
+  }
 }
 import com.amazon.spapi.client.*;
-import com.amazon.spapi.client.auth.*;
-import com.amazon.spapi.model.apluscontent.*;
-import com.amazon.spapi.api.AplusContentApi;
+        import com.amazon.spapi.client.auth.*;
+        import com.amazon.spapi.model.apluscontent.*;
+        import com.amazon.spapi.api.AplusContentApi;
 
-import java.io.File;
-import java.util.*;
+        import java.io.File;
+        import java.util.*;
 
 public class AplusContentApiExample {
 
-    public static void main(String[] args) {
-        
-        AplusContentApi apiInstance = new AplusContentApi();
-        PostContentDocumentRequest body = new PostContentDocumentRequest(); // PostContentDocumentRequest | The content document request details.
-        String contentReferenceKey = "contentReferenceKey_example"; // String | The unique reference key for the A+ Content document. A content reference key cannot form a permalink and may change in the future. A content reference key is not guaranteed to match any A+ Content identifier.
-        String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
-        try {
-            PostContentDocumentResponse result = apiInstance.updateContentDocument(body, contentReferenceKey, marketplaceId);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling AplusContentApi#updateContentDocument");
-            e.printStackTrace();
-        }
+  public static void main(String[] args) {
+
+    AplusContentApi apiInstance = new AplusContentApi();
+    PostContentDocumentRequest body = new PostContentDocumentRequest(); // PostContentDocumentRequest | The content document request details.
+    String contentReferenceKey = "contentReferenceKey_example"; // String | The unique reference key for the A+ Content document. A content reference key cannot form a permalink and may change in the future. A content reference key is not guaranteed to match any A+ Content identifier.
+    String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
+    try {
+      PostContentDocumentResponse result = apiInstance.updateContentDocument(body, contentReferenceKey, marketplaceId);
+      System.out.println(result);
+    } catch (ApiException e) {
+      System.err.println("Exception when calling AplusContentApi#updateContentDocument");
+      e.printStackTrace();
     }
+  }
 }
 import com.amazon.spapi.client.*;
-import com.amazon.spapi.client.auth.*;
-import com.amazon.spapi.model.apluscontent.*;
-import com.amazon.spapi.api.AplusContentApi;
+        import com.amazon.spapi.client.auth.*;
+        import com.amazon.spapi.model.apluscontent.*;
+        import com.amazon.spapi.api.AplusContentApi;
 
-import java.io.File;
-import java.util.*;
+        import java.io.File;
+        import java.util.*;
 
 public class AplusContentApiExample {
 
-    public static void main(String[] args) {
-        
-        AplusContentApi apiInstance = new AplusContentApi();
-        PostContentDocumentRequest body = new PostContentDocumentRequest(); // PostContentDocumentRequest | The content document request details.
-        String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
-        List<String> asinSet = Arrays.asList("asinSet_example"); // List<String> | The set of ASINs.
-        try {
-            ValidateContentDocumentAsinRelationsResponse result = apiInstance.validateContentDocumentAsinRelations(body, marketplaceId, asinSet);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling AplusContentApi#validateContentDocumentAsinRelations");
-            e.printStackTrace();
-        }
+  public static void main(String[] args) {
+
+    AplusContentApi apiInstance = new AplusContentApi();
+    PostContentDocumentRequest body = new PostContentDocumentRequest(); // PostContentDocumentRequest | The content document request details.
+    String marketplaceId = "marketplaceId_example"; // String | The identifier for the marketplace where the A+ Content is published.
+    List<String> asinSet = Arrays.asList("asinSet_example"); // List<String> | The set of ASINs.
+    try {
+      ValidateContentDocumentAsinRelationsResponse result = apiInstance.validateContentDocumentAsinRelations(body, marketplaceId, asinSet);
+      System.out.println(result);
+    } catch (ApiException e) {
+      System.err.println("Exception when calling AplusContentApi#validateContentDocumentAsinRelations");
+      e.printStackTrace();
     }
+  }
 }
 ```
 
