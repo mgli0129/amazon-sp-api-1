@@ -13,12 +13,11 @@
 package com.amazon.spapi.models.messaging;
 
 import java.util.Objects;
-import java.util.Arrays;
-import io.swagger.v3.oas.annotations.media.Schema;
+
 /**
  * A JSON schema document describing the expected payload of the action. This object can be validated against &lt;a href&#x3D;http://json-schema.org/draft-04/schema&gt;http://json-schema.org/draft-04/schema&lt;/a&gt;.
  */
-@Schema(description = "A JSON schema document describing the expected payload of the action. This object can be validated against <a href=http://json-schema.org/draft-04/schema>http://json-schema.org/draft-04/schema</a>.")
+@io.swagger.v3.oas.annotations.media.Schema(description = "A JSON schema document describing the expected payload of the action. This object can be validated against <a href=http://json-schema.org/draft-04/schema>http://json-schema.org/draft-04/schema</a>.")
 @javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2021-08-19T18:24:25.103701+08:00[Asia/Shanghai]")
 public class Schema {
 
